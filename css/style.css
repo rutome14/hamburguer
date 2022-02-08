@@ -1,6 +1,36 @@
 @import url(reset.css);
-@import url(@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat:wght@400;700&display=swap');
+
+/* font family Montserrat, handlee*/
 
 * {
     box-sizing: border-box;
+}
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+html {
+    /*para que generar anclas animadas*/
+    scroll-behavior: smooth;
+}
+:root {
+--fuentePrincipal:'Montserrat', sans-serif;
+--fuenteSecundaria:'Handlee', cursive; 
+--marginGrid: 1em;
+--colorPrincipal: #fa573a;
+--colorSecundario: #21242e;
+--fontSize: 1em;
+--corse: 1100px;
+
+}
+.cotainer {
+    max-width: var(--corse);
+    margin: 0 auto;
+}
+body { 
+    font-family: var(--fuentePrincipal);
+    font-size: var(--fontSize);
+
 }
